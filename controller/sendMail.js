@@ -21,7 +21,7 @@ const sendMail = async(req, res)=>{
     });
 
     console.log(info.messageId);
-    res.json({"Msg": info});
+    res.json({info});
 
 }
 
